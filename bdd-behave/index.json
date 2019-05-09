@@ -1,0 +1,75 @@
+{
+  "title": "Tutorial on BDD using Python Behave",
+  "description": "BDD Behave Scenario",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Installations",
+      "text": "pip.md"
+    },
+    {
+      "title": "Behave directory layout",
+      "text": "layout.md"
+    },
+    {
+      "title": "Feature file using Gherkin",
+      "text": "feature.md"
+    },
+    {
+      "title": "Step implementation",
+      "text": "steps.md"
+    },
+    {
+      "title": "Test execution",
+      "text": "behave.md"
+    },
+    {
+      "title": "Common data and sharing",
+      "text": "fixtures.md"
+    },
+    {
+      "title": "Scenario outline",
+      "text": "outline.md"
+    },
+    {
+      "title": "Environmental controls",
+      "text": "environment.md"
+    },
+    {
+      "title": "Add a background",
+      "text": "background.md"
+    },
+    {
+      "title": "Step implementaion - updated",
+      "text": "updated.md"
+    },
+    {
+      "title": "Tags for control",
+      "text": "tags.md"
+    },
+    {
+      "title": "Re-run scenario",
+      "text": "rerun.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "features/weekend.feature",
+    "features/steps/weekend.py",
+    "features/environment.py",
+    "features/steps/common_steps.py"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}
